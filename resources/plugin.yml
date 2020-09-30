@@ -1,0 +1,19 @@
+name: HypixelEnchanting
+version: 1.0
+author: Auxilor
+main: com.willfp.hypixelenchanting.Main
+api-version: 1.15
+
+commands:
+  updateitemlore:
+    description: Updates item lore on held item
+  hereload:
+    description: Reloads config for HE
+
+permissions:
+    hypixelenchanting.update:
+      description: Allows player to do /updateitemlore
+      default: true
+    hypixelenchanting.reload:
+      description: Allows players to reload hypixelenchanting config (/hereload)
+      default: op
